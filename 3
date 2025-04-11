@@ -1,0 +1,11 @@
+v=[]
+x=0
+while x<4:
+      p=input("number:")
+      v.append(p)
+      x=x+1
+for i in range (0,4):
+      for i in range (0,3):
+            if v[i]>v[i+1]:
+                  v[i],v[i+1]=v[i+1],v[i]
+print(v[3])
